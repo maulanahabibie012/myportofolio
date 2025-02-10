@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./output.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./output.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar+One&display=swap"
+    rel="stylesheet">
+
 </head>
-<body>
-  <!-- navbar portofolio -->
-  <nav class="containere bg-black p-4 w-full flex flex-col justify-between fixed">
-    <div>
-      <img src="./assets/logo.png" alt="">
+
+<body class="bg-[#061a31]">
+  <!-- profil sidebar -->
+  <div class="m-4">
+    <h1 class="flex justify-center font-[Sigmar_One] text-[32px] text-[#B7A261]">Portofolio</h1>
+    <!-- profil card -->
+    <div
+      class="container flex flex-col flex-wrap items-center py-4 px-8 gap-4 border-4 border-double border-[#B7A261] rounded-xl bg-black">
+      <img class="flex border rounded-xl h-52" src="../assets/my-foto.jpeg" alt="my-foto">
+      <div class="flex flex-col justify-center text-center gap-4 text-amber-100">
+        <h1 class="font-black text-xl">Maulana Habibie</h1>
+        <div class="w-fit px-6 p-1 bg-[#272522] border border-[#B7A261] rounded-lg">
+          <h1 class="text-xl">Front End Developer</h1>
+        </div>
+        <div class="flex w-full justify-center gap-4">
+          <img class="w-[32px] h-[32px]" src="../assets/ic-linkedin.png" alt="ic-linkedin">
+          <img class="w-[32px] h-[32px]" src="../assets/ic-github.png" alt="ic-github">
+          <img class="w-[32px] h-[32px]" src="../assets/ic-instagram.png" alt="ic-instagram">
+        </div>
+      </div>
+      <!-- contact -->
+      <div
+        class="container px-8 py-2 flex flex-wrap flex-col justify-center content-center text-xl rounded-2xl bg-[#272522]">
+        <div class="flex flex-wrap items-center my-2 gap-4 px-8">
+          <img class="w-[40px] h-[40px] rounded-md bg-black" src="../assets/ic-hp.png" alt="ic-hp">
+          <p class="flex flex-wrap text-amber-100">+628123456789</p>
+        </div>
+        <hr>
+        <div class="flex flex-wrap items-center my-2 gap-4 px-8">
+          <img class="w-[40px] h-[40px] rounded-md bg-black" src="../assets/ic-email.png" alt="ic-email">
+          <p class="flex flex-wrap text-amber-100">maulanaahabibie@gmail.com</p>
+        </div>
+        <hr>
+        <div class="flex flex-wrap items-center my-2 gap-4 px-8">
+          <img class="w-[40px] h-[40px] rounded-md bg-black" src="../assets/ic-map.png" alt="ic-map">
+          <p class="flex flex-wrap text-amber-100">Depok City, West Java</p>
+        </div>
+        <hr>
+        <div class="flex flex-wrap items-center my-2 gap-4 px-8">
+          <img class="w-[40px] h-[40px] rounded-md bg-black" src="../assets/ic-date.png" alt="ic-date">
+          <p class="flex flex-wrap text-amber-100">July 12, 1997</p>
+        </div>
+        <hr>
+      </div>
     </div>
-  </nav>
+    <!-- End profil card -->
+  </div>
+  <!-- Resume -->
+  <div class="m-4">
+    <div
+      class="container flex flex-col flex-wrap justify-start py-4 px-8 gap-1 border-4 border-double rounded-xl border-[#B7A261] text-white bg-black">
+      <h1 class="font-black text-xl">About</h1>
+      <p class="font-extralight">I am an Information Systems graduate from Telkom University I am a dedicated and hardworking individual with a passion for knowledge and intermediate expertise in Front End Developer. With excellent communication skills and strong interpersonal abilities, I excel in a collaborative environment. Easily adaptable to change, I demonstrate perseverance in achieving desired results. I have expertise in HTML, CSS, Java Script, React, Tailwind, SQL, Jira, Figma, and Github. I would like to find more challenges on how to optimize user experience. If you are interested in working with me. <br> let's connect or contact me via this email: Maulanaahabibie@gmail.com</p>
+    </div>
+  </div>
+
 </body>
+
 </html>
