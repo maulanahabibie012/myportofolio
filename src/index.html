@@ -19,10 +19,10 @@
   <div class="p-1 w-full fixed top-0 z-10 bg-[#061a31]">
     <h1 class="font-[Sigmar_One] text-[32px] text-center text-[#B7A261]">Portofolio</h1>
   </div>
-  <div class="flex justify-center sm:flex-col my-16 py-4 px-4 gap-4 lg:flex-row">
+  <div class="flex justify-center sm:flex-col mt-10 mb-14 py-4 px-4 gap-2 lg:flex-row">
     <!-- profil card -->
     <div
-      class="container flex flex-col flex-wrap items-center h-fit w-fit py-4 px-8 gap-4 border-4 border-double border-[#B7A261] rounded-xl bg-black">
+      class="container flex flex-col flex-wrap items-center h-fit max-w-full py-4 px-8 gap-4 border-4 border-double border-[#B7A261] rounded-xl bg-black">
       <img class="flex border rounded-xl h-52" src="../assets/my-foto.jpeg" alt="my-foto">
       <div class="flex flex-col justify-center text-center gap-4 text-amber-100">
         <h1 class="font-black text-xl">Maulana Habibie</h1>
@@ -62,11 +62,11 @@
     </div>
     <!-- End profil card -->
     <!-- About -->
-    <div
-      class="container flex flex-col flex-wrap justify-start gap-4 py-4 px-4 w-fit border-4 border-double rounded-xl border-[#B7A261] bg-black">
+    <div 
+      class="container flex flex-col flex-wrap justify-start text-justify gap-4 py-4 px-4 max-w-full border-4 border-double rounded-xl border-[#B7A261] bg-black">
       <!-- about -->
       <div class="flex flex-col text-white gap-2">
-        <h1 class="font-black text-xl">About</h1>
+        <h1 id="about" class="font-black text-xl">About</h1>
         <p class="font-extralight">I am an Information Systems graduate from Telkom University I am a dedicated and
           hardworking individual with a passion for knowledge and intermediate expertise in Front End Developer. With
           excellent communication skills and strong interpersonal abilities, I excel in a collaborative environment.
@@ -93,7 +93,7 @@
         </div>
       </div>
       <!-- Experiance -->
-      <div class="flex flex-col text-white gap-2">
+      <div id="experiance" class="flex flex-col text-white gap-2">
         <h1 class="font-black text-xl">Experiance</h1>
         <div class="flex flex-col flex-wrap gap-2">
           <!-- Telkom Sigma-->
@@ -161,7 +161,8 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col text-white gap-2">
+      <!-- Projects -->
+      <div id="projects" class="flex flex-col text-white gap-2">
         <h1 class="font-black text-xl">Projects</h1>
         <div class="flex flex-row flex-wrap gap-4">
           <div class="flex flex-col items-center bg-[#403D32] p-2 rounded-lg">
@@ -174,7 +175,67 @@
           </div>
           <div class="flex flex-col items-center bg-[#403D32] p-2 rounded-lg">
             <img class="h-[120px] w-[220px] rounded-lg" src="../assets/img-web_finplan.png" alt="img-web_finplan">
-            <h1 class="font-bold">Website FinPlan (Figma)</h1>
+            <h1 class="font-bold" herf>Website FinPlan (Figma)</h1>
+          </div>
+        </div>
+      </div>
+      <!-- Skills -->
+      <div id="skills" class="flex flex-col text-white gap-2">
+        <h1 class="font-black text-xl">Skills</h1>
+        <div class="flex flex-row flex-wrap gap-4 text-xs">
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-html.png" alt="img-html">
+            <h1 class="font-medium">HTML</h1>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-css.png" alt="img-css">
+            <h1 class="font-medium">CSS</h1>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-js.png" alt="img-js">
+            <h1 class="font-medium">Javascript</h1>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-tailwind.png" alt="img-tailwind">
+            <h1 class="font-medium">Tailwind</h1>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-react.png" alt="img-react">
+            <h1 class="font-medium">React</h1>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-sql.png" alt="img-sql">
+            <h1 class="font-medium">SQL</h1>
+          </div>
+        </div>
+      </div>
+      <!-- Tools & Software -->
+      <div id="skills" class="flex flex-col text-white gap-2">
+        <h1 class="font-black text-xl">Tools & Software</h1>
+        <div class="flex flex-row flex-wrap gap-4 text-xs">
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-figma.png" alt="img-figma">
+            <h1 class="font-medium">Figma</h1>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-full" src="../assets/img-github.png" alt="img-github">
+            <a class="font-medium" href="https://github.com/maulanahabibie012" target="_blank">Github</a>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[50px] rounded-lg" src="../assets/img-power_bi.png" alt="img-power_bi">
+            <h1 class="font-medium">Power BI</h1>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-vscode.png" alt="img-vscode">
+            <h1 class="font-medium">VSCode</h1>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-jira.png" alt="img-jira">
+            <h1 class="font-medium">Jira</h1>
+          </div>
+          <div class="h-[80px] w-[80px] flex flex-col items-center gap-2 p-2 rounded-lg border border-solid border-[#B7A261]">
+            <img class="h-[40px] w-[40px] rounded-lg" src="../assets/img-sql.png" alt="img-sql">
+            <h1 class="font-medium">SQL</h1>
           </div>
         </div>
       </div>
@@ -184,11 +245,19 @@
   <nav
     class="fixed bottom-2 flex flex-row justify-center w-full p-4 border-4 border-double rounded-xl border-[#B7A261] bg-[#272522]">
     <div class="container flex flex-row justify-center items-center gap-8">
-      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">About</div>
-      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">Experiance</div>
-      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">Projects</div>
-      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">Skills</div>
-      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">Contact</div>
+      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">
+        <a href="#about" class="scroll-smooth">About</a>
+      </div>
+      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">
+        <a href="#experiance" class="scroll-smooth">Experiance</a>
+      </div>
+      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">
+        <a href="#projects" class="scroll-smooth">Projects</a>
+      </div>
+      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">
+        <a href="#skills" class="scroll-smooth">Skills</a>
+      </div>
+      <!--<div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">Contact</div>-->
     </div>
   </nav>
 
