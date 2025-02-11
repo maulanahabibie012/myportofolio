@@ -15,12 +15,14 @@
 </head>
 
 <body class="bg-[#061a31]">
-  <!-- profil sidebar -->
-  <div class="m-4">
-    <h1 class="flex justify-center font-[Sigmar_One] text-[32px] text-[#B7A261]">Portofolio</h1>
+  <!-- content -->
+  <div class="p-1 w-full fixed top-0 z-10 bg-[#061a31]">
+    <h1 class="font-[Sigmar_One] text-[32px] text-center text-[#B7A261]">Portofolio</h1>
+  </div>
+  <div class="flex justify-center sm:flex-col my-16 py-4 px-4 gap-4 lg:flex-row">
     <!-- profil card -->
     <div
-      class="container flex flex-col flex-wrap items-center py-4 px-8 gap-4 border-4 border-double border-[#B7A261] rounded-xl bg-black">
+      class="container flex flex-col flex-wrap items-center h-fit w-fit py-4 px-8 gap-4 border-4 border-double border-[#B7A261] rounded-xl bg-black">
       <img class="flex border rounded-xl h-52" src="../assets/my-foto.jpeg" alt="my-foto">
       <div class="flex flex-col justify-center text-center gap-4 text-amber-100">
         <h1 class="font-black text-xl">Maulana Habibie</h1>
@@ -59,15 +61,136 @@
       </div>
     </div>
     <!-- End profil card -->
-  </div>
-  <!-- Resume -->
-  <div class="m-4">
+    <!-- About -->
     <div
-      class="container flex flex-col flex-wrap justify-start py-4 px-8 gap-1 border-4 border-double rounded-xl border-[#B7A261] text-white bg-black">
-      <h1 class="font-black text-xl">About</h1>
-      <p class="font-extralight">I am an Information Systems graduate from Telkom University I am a dedicated and hardworking individual with a passion for knowledge and intermediate expertise in Front End Developer. With excellent communication skills and strong interpersonal abilities, I excel in a collaborative environment. Easily adaptable to change, I demonstrate perseverance in achieving desired results. I have expertise in HTML, CSS, Java Script, React, Tailwind, SQL, Jira, Figma, and Github. I would like to find more challenges on how to optimize user experience. If you are interested in working with me. <br> let's connect or contact me via this email: Maulanaahabibie@gmail.com</p>
+      class="container flex flex-col flex-wrap justify-start gap-4 py-4 px-4 w-fit border-4 border-double rounded-xl border-[#B7A261] bg-black">
+      <!-- about -->
+      <div class="flex flex-col text-white gap-2">
+        <h1 class="font-black text-xl">About</h1>
+        <p class="font-extralight">I am an Information Systems graduate from Telkom University I am a dedicated and
+          hardworking individual with a passion for knowledge and intermediate expertise in Front End Developer. With
+          excellent communication skills and strong interpersonal abilities, I excel in a collaborative environment.
+          Easily adaptable to change, I demonstrate perseverance in achieving desired results. I have expertise in HTML,
+          CSS, Java Script, React, Tailwind, SQL, Jira, Figma, and Github. I would like to find more challenges on how
+          to
+          optimize user experience. If you are interested in working with me. <br> let's connect or contact me via this
+          email: Maulanaahabibie@gmail.com</p>
+      </div>
+      <!-- Education -->
+      <div class="flex flex-col text-white gap-2">
+        <h1 class="font-black text-xl">Education</h1>
+        <div class="flex flex-row flex-wrap gap-2">
+          <div class="flex flex-col p-1 border-2 border-solid border-[#B7A261] rounded-md w-[300px]">
+            <p>Nov 2023 - Present</p>
+            <p>Dibimbing - Jakarta, Indonesia</p>
+            <p>Front End Developer</p>
+          </div>
+          <div class="flex flex-col p-1 border-2 border-solid border-[#B7A261] rounded-md w-[300px]">
+            <p>Aug 2015 - Aug 2020</p>
+            <p>Telkom University - Bandung, Indonesia</p>
+            <p>S1 Information Systems</p>
+          </div>
+        </div>
+      </div>
+      <!-- Experiance -->
+      <div class="flex flex-col text-white gap-2">
+        <h1 class="font-black text-xl">Experiance</h1>
+        <div class="flex flex-col flex-wrap gap-2">
+          <!-- Telkom Sigma-->
+          <div class="flex flex-row p-1 gap-2 border-2 border-solid border-[#B7A261] rounded-md max-w-full">
+            <img class="h-[88px] w-[88px] rounded-lg" src="../assets/img-telkom_sigma.png" alt="img-telkom_sigma">
+            <ul class="flex flex-col gap-2">
+              <li>
+                <p><span class="font-bold">Company:</span> PT Sigma Cipta Caraka </p>
+                <p><span class="font-bold">Role:</span> IT Quality Assurance</p>
+                <p><span class="font-bold">Duration:</span> Aug 2023 - Present</p>
+              </li>
+              <hr>
+              <li>
+                <p><span class="font-bold">Role:</span> Business Analyst</p>
+                <p><span class="font-bold">Duration:</span> Mart 2023 - Aug 2023</p>
+              </li>
+            </ul>
+          </div>
+          <!-- Kelas Pintar -->
+          <div class="flex flex-row p-1 gap-2 border-2 border-solid border-[#B7A261] rounded-md max-w-full">
+            <img class="h-[88px] w-[88px] rounded-lg" src="../assets/img-kelas_pintar.jpg" alt="img-kelas_pintar">
+            <ul class="flex flex-col gap-2">
+              <li>
+                <p><span class="font-bold">Company:</span> PT. Extramarks Education Indonesia</p>
+                <p><span class="font-bold">Role:</span> UI/UX Designer</p>
+                <p><span class="font-bold">Duration:</span> March 2022 - March 2023</p>
+              </li>
+            </ul>
+          </div>
+          <!-- Telkom University -->
+          <div class="flex flex-row p-1 gap-2 border-2 border-solid border-[#B7A261] rounded-md max-w-full">
+            <img class="bg-white h-[88px] w-[88px] p-4  rounded-lg" src="../assets/img-telkom_univ.png"
+              alt="img-telkom_univ">
+            <ul class="flex flex-col gap-2">
+              <li>
+                <p><span class="font-bold">Company:</span> Telkom University</p>
+                <p><span class="font-bold">Role:</span> UI Designer - IT Quality Assurance</p>
+                <p><span class="font-bold">Duration:</span> Feb 2021 - Feb 2022</p>
+              </li>
+            </ul>
+          </div>
+          <!-- Mamikos -->
+          <div class="flex flex-row p-1 gap-2 border-2 border-solid border-[#B7A261] rounded-md max-w-full">
+            <img class="bg-white h-[88px] w-[88px] rounded-lg"
+              src="https://images.glints.com/unsafe/320x0/glints-dashboard.oss-ap-southeast-1.aliyuncs.com/company-logo/f3bb20131d2f353777a27abc834edff6.png"
+              alt="img-mamikos">
+            <ul class="flex flex-col gap-2">
+              <li>
+                <p><span class="font-bold">Company:</span> Mamikos</p>
+                <p><span class="font-bold">Role:</span> Product Designer Internship</p>
+                <p><span class="font-bold">Duration:</span> Jan 2022 - March 2022</p>
+              </li>
+            </ul>
+          </div>
+          <!-- Diskominfo -->
+          <div class="flex flex-row p-1 gap-2 border-2 border-solid border-[#B7A261] rounded-md max-w-full">
+            <img class="bg-white h-[88px] w-[88px] rounded-lg" src="../assets/img-diskominfo.png" alt="img-diskominfo">
+            <ul class="flex flex-col gap-2">
+              <li>
+                <p><span class="font-bold">Company:</span> Diskominfo Kota Cirebon</p>
+                <p><span class="font-bold">Role:</span> Junior Programmer</p>
+                <p><span class="font-bold">Duration:</span> May 2018 - Aug 2018</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col text-white gap-2">
+        <h1 class="font-black text-xl">Projects</h1>
+        <div class="flex flex-row flex-wrap gap-4">
+          <div class="flex flex-col items-center bg-[#403D32] p-2 rounded-lg">
+            <img class="h-[120px] w-[220px] rounded-lg" src="../assets/img-company_profile.png" alt="img-company_profile">
+            <h1 class="font-bold">Company profil (HTML + CSS)</h1>
+          </div>
+          <div class="flex flex-col items-center bg-[#403D32] p-2 rounded-lg">
+            <img class="h-[120px] w-[220px] rounded-lg" src="../assets/img-project_cafe.png" alt="img-project_cafe">
+            <h1 class="font-bold">Cafe FoodTuck (Tailwind)</h1>
+          </div>
+          <div class="flex flex-col items-center bg-[#403D32] p-2 rounded-lg">
+            <img class="h-[120px] w-[220px] rounded-lg" src="../assets/img-web_finplan.png" alt="img-web_finplan">
+            <h1 class="font-bold">Website FinPlan (Figma)</h1>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <!-- floating action button -->
+  <nav
+    class="fixed bottom-2 flex flex-row justify-center w-full p-4 border-4 border-double rounded-xl border-[#B7A261] bg-[#272522]">
+    <div class="container flex flex-row justify-center items-center gap-8">
+      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">About</div>
+      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">Experiance</div>
+      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">Projects</div>
+      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">Skills</div>
+      <div class="flex flex-col justify-center items-center gap-4 flex-wrap text-amber-100">Contact</div>
+    </div>
+  </nav>
 
 </body>
 
